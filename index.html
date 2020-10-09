@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Document</title>
+  </head>
+  <h2>Dice Roller</h2>
+  <body>
+    <button id="reset">RESET</button>
+    <br />
+    <br />
+    <label for="number">Enter the Number of Dice</label>
+    <input
+      type="number"
+      id="number"
+      min="1"
+      placeholder="select no. of rolls"
+    />
+    <button id="roll" type="button">Roll!</button>
+    <br />
+    <br />
+    <div>
+      <p>Total:<span id="total"> </span></p>
+    </div>
+    <div id="rolls"></div>
+    <br />
+    <br />
+    <button id="Allrolls">Show All Rolls</button>
+
+    <div id="resultList"></div>
+
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
